@@ -1,6 +1,6 @@
 # Wi-Fi Password Extractor (VBScript)
 
-This VBScript retrieves the password for a specified Wi-Fi network on a Windows system and saves it to a Notepad file (`passwort.txt`). It uses the `netsh wlan show profiles` command to extract the password in plaintext.
+This VBScript retrieves the password for a specified Wi-Fi network on a Windows system and saves it to a Notepad file (`password.txt`). It uses the `netsh wlan show profiles` command to extract the password in plaintext.
 
 ## ⚠️ Disclaimer
 This script is for **educational purposes only**. Ensure you have proper authorization to retrieve Wi-Fi passwords before using this script. Unauthorized use may violate privacy and legal regulations.
@@ -18,6 +18,7 @@ This script is for **educational purposes only**. Ensure you have proper authori
 1. **Windows Operating System**: This script is designed for Windows environments.
 2. **Administrative Privileges**: Running the script requires admin rights.
 3. **Existing Wi-Fi Profile**: The Wi-Fi network must be saved on the system.
+4. **You should have a `password.txt` text-file.
 
 ---
 
