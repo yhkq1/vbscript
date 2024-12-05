@@ -21,7 +21,6 @@ WScript.Sleep(100)
 x.SendKeys "{ENTER}"
 WScript.Sleep(100)
 
-' ﾒ𝟶 cmd schließen
 x.SendKeys "exit"
 WScript.Sleep(100)
 x.SendKeys "{ENTER}"
